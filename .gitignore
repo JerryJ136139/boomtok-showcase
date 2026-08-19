@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+
+# Never add application source or private deployment configuration here.
+.env*
+.netlify/
+.next/
+node_modules/

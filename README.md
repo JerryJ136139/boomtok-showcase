@@ -59,9 +59,32 @@ flowchart LR
 - Enforced identity, ownership, blocking, moderation, and virtual-asset rules through PostgreSQL RLS, RPCs, triggers, and server-side validation.
 - Validated key workflows through type checking, production builds, multi-account testing, responsive regression checks, and deployment verification.
 
-## Product Images
+## Product Walkthrough
 
-Public walkthrough images will be added after private beta data is replaced with a synthetic demo dataset. No real accounts, messages, notifications, storage URLs, or administrative records will be published here.
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/01-discover.png" alt="BoomTok discovery hub" width="250"><br>
+      <sub><strong>Discovery hub</strong> — search, announcements, support, and featured activities</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/02-star-gallery.png" alt="BoomTok star gallery" width="250"><br>
+      <sub><strong>Star gallery</strong> — structured fan spaces and content entry points</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/03-super-topics.png" alt="BoomTok fan topic communities" width="250"><br>
+      <sub><strong>Fan communities</strong> — topic-based discovery and participation</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/screenshots/04-authentication.png" alt="BoomTok email authentication screen" width="250"><br>
+      <sub><strong>Authentication</strong> — branded Supabase email and password entry</sub>
+    </td>
+  </tr>
+</table>
+
+Screenshots were captured from anonymous product routes. They contain no account credentials, private messages, notifications, storage URLs, or administrative records.
 
 ## Source and Usage
 

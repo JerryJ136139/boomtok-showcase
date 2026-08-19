@@ -64,27 +64,33 @@ flowchart LR
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/screenshots/01-discover.png" alt="BoomTok discovery hub" width="250"><br>
-      <sub><strong>Discovery hub</strong> — search, announcements, support, and featured activities</sub>
+      <img src="assets/screenshots/01-video-feed.png" alt="BoomTok vertical short-video feed" width="250"><br>
+      <sub><strong>Video feed</strong> — vertical playback, creator context, and social interactions</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshots/02-star-gallery.png" alt="BoomTok star gallery" width="250"><br>
-      <sub><strong>Star gallery</strong> — structured fan spaces and content entry points</sub>
+      <img src="assets/screenshots/02-messaging.png" alt="BoomTok synthetic private conversation" width="250"><br>
+      <sub><strong>Messaging</strong> — one-to-one conversation and video sharing using synthetic demo data</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/screenshots/03-super-topics.png" alt="BoomTok fan topic communities" width="250"><br>
-      <sub><strong>Fan communities</strong> — topic-based discovery and participation</sub>
+      <img src="assets/screenshots/03-discover.png" alt="BoomTok discovery hub" width="250"><br>
+      <sub><strong>Discovery hub</strong> — search, announcements, support, and featured activities</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshots/04-authentication.png" alt="BoomTok email authentication screen" width="250"><br>
+      <img src="assets/screenshots/04-super-topics.png" alt="BoomTok fan topic communities" width="250"><br>
+      <sub><strong>Fan communities</strong> — topic-based discovery and participation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="assets/screenshots/05-authentication.png" alt="BoomTok email authentication screen" width="250"><br>
       <sub><strong>Authentication</strong> — branded Supabase email and password entry</sub>
     </td>
   </tr>
 </table>
 
-Screenshots were captured from anonymous product routes. They contain no account credentials, private messages, notifications, storage URLs, or administrative records.
+All screenshots use anonymous routes or synthetic demo accounts and data. The messaging image contains a fabricated conversation created specifically for this public showcase. No real credentials, user conversations, notifications, storage URLs, or administrative records are shown.
 
 ## Source and Usage
 

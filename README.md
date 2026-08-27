@@ -19,14 +19,6 @@ At the project level, the current application spans **42 Next.js App Router page
 | **My role** | Full-Stack Developer |
 | **Technology** | Next.js 15, React 19, TypeScript, Tailwind CSS, Supabase, PostgreSQL, Netlify |
 
-## My Contributions
-
-- Implemented much of the core short-video experience, including cloud media uploads, vertical playback, and related interaction workflows.
-- Built foundational private-messaging and social-conversation features.
-- Managed Supabase-backed data and media workflows, Netlify production deployments, and the Git/GitHub release process.
-- Diagnosed playback races, stale optimistic updates, cross-account cache behavior, cloud synchronization issues, and deployment regressions found during small-group testing.
-- Collaborated with an approximately five-person team on feature design, implementation, integration, and debugging.
-
 ## Key Product Capabilities
 
 - Vertical short-video feed with upload, playback, likes, comments, follows, favorites, sharing, and discovery
@@ -65,11 +57,11 @@ flowchart LR
   <tr>
     <td align="center" width="50%">
       <img src="assets/screenshots/01-video-feed.png" alt="BoomTok vertical short-video feed" width="250"><br>
-      <sub><strong>Video feed</strong> — vertical playback, creator context, and social interactions</sub>
+      <sub><strong>Video feed</strong> — vertical playback, creator context, topics, and social actions</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshots/02-messaging.png" alt="BoomTok synthetic private conversation" width="250"><br>
-      <sub><strong>Messaging</strong> — one-to-one conversation and video sharing using synthetic demo data</sub>
+      <img src="assets/screenshots/02-messaging.png" alt="BoomTok test-account private conversation and shared video card" width="250"><br>
+      <sub><strong>Messaging</strong> — one-to-one conversation and in-chat video sharing between test accounts</sub>
     </td>
   </tr>
   <tr>
@@ -78,26 +70,22 @@ flowchart LR
       <sub><strong>Discovery hub</strong> — search, announcements, support, and featured activities</sub>
     </td>
     <td align="center" width="50%">
-      <img src="assets/screenshots/04-super-topics.png" alt="BoomTok fan topic communities" width="250"><br>
-      <sub><strong>Fan communities</strong> — topic-based discovery and participation</sub>
+      <img src="assets/screenshots/04-profile.png" alt="BoomTok test-account profile and progression dashboard" width="250"><br>
+      <sub><strong>Profile &amp; progression</strong> — account stats, levels, badges, titles, outfits, and profile skins</sub>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
       <img src="assets/screenshots/05-authentication.png" alt="BoomTok email authentication screen" width="250"><br>
-      <sub><strong>Authentication</strong> — branded Supabase email and password entry</sub>
+      <sub><strong>Authentication</strong> — branded email-and-password access backed by Supabase Auth</sub>
     </td>
   </tr>
 </table>
 
-All screenshots use anonymous routes or synthetic demo accounts and data. The messaging image contains a fabricated conversation created specifically for this public showcase. No real credentials, user conversations, notifications, storage URLs, or administrative records are shown.
+All screenshots use anonymous routes or a dedicated test account with English-localized interface text. The messaging image contains a fabricated QA conversation and video share created specifically for product testing and this public showcase. No real credentials, personal conversations, notifications, storage URLs, or administrative records are shown.
 
 ## Source and Usage
 
 The production repository is private. This showcase intentionally contains no application source, database migrations, environment variables, deployment identifiers, test credentials, or user data.
 
 All product descriptions and diagrams in this repository are provided for portfolio review. No license to reuse the private application or its assets is granted.
-
-## Contributor
-
-Jerry Jin · Full-Stack Developer · [LinkedIn](https://www.linkedin.com/in/guo-j-996344295/)
